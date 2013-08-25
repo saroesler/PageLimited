@@ -1,0 +1,472 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-23 17:08+0000\n"
+"PO-Revision-Date: 2013-08-23 19:14+0100\n"
+"Last-Translator: Sascha Rösler <sa-roelser@t-online.de>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: lib/PageLimited/Handler/Edit.php:39
+#, php-format
+msgid "Page with id %s not found"
+msgstr "Es wurde keine passende Seite für  ID %s gefunden. "
+
+#: lib/PageLimited/Version.php:15
+msgid "Page Limited"
+msgstr "page Limited"
+
+#: lib/PageLimited/Version.php:16
+msgid "Page module creating pages with keyword"
+msgstr "Seitenmodul, dass Seiten mit Passwortschutz erstellt"
+
+#: lib/PageLimited/Version.php:17
+msgid "PageLimited"
+msgstr "PageLimited"
+
+#: lib/PageLimited/Version.php:38
+msgid "PageLimited edit_page Hooks"
+msgstr "pagelimitedr edit_page Hooks"
+
+#: lib/PageLimited/Api/Admin.php:17
+#: lib/PageLimited/Api/Admin.php:18
+#: templates/Admin/Main.tpl:1
+msgid "Main"
+msgstr "Hauptseite"
+
+#: lib/PageLimited/Api/Admin.php:26
+#: templates/Admin/page_manager.tpl:1
+msgid "Page Manager"
+msgstr "Seitenverwaltung"
+
+#: lib/PageLimited/Api/Admin.php:27
+msgid "Add and delete pages"
+msgstr "Erstellen und löschen Sie Seiten."
+
+#: lib/PageLimited/Api/Admin.php:34
+msgid "Little HTLM- School"
+msgstr "Kleine HTLM- Schule"
+
+#: lib/PageLimited/Api/Admin.php:35
+msgid "Learn HTML, to edit pages professionally"
+msgstr "Lernen Sie ein bisschen HTML, um Ihre Seiten professionell zu bearbeiten."
+
+#: lib/PageLimited/Api/Admin.php:41
+#: lib/PageLimited/Api/Admin.php:42
+#: templates/Admin/help.tpl:1
+#: templates/Admin/help.tpl:2
+msgid "Help"
+msgstr "Hilfe"
+
+#: lib/PageLimited/Api/Account.php:49
+msgid "Page creation"
+msgstr "Seitenerstellung"
+
+#: lib/PageLimited/Controller/Admin.php:200
+msgid "The added Page has no title."
+msgstr "Die neue Seite hat keinen Titel."
+
+#: lib/PageLimited/Controller/Admin.php:225
+msgid "page has been added successfully."
+msgstr "Die Seite wurde erfolgreich erstellt."
+
+#: lib/PageLimited/Controller/Admin.php:232
+msgid "ID is missing."
+msgstr "Die ID fehlt."
+
+#: lib/PageLimited/Controller/Admin.php:239
+msgid "page has been removed successfully."
+msgstr "Die Seite wurde erfolgreich gelöscht."
+
+#: templates/Admin/display_page_edit.tpl:1
+msgid "Edit Display"
+msgstr "Vorschau"
+
+#: templates/Admin/display_page_edit.tpl:3
+#: templates/Admin/display_page_refuse.tpl:4
+msgid "Last change:"
+msgstr "Stand: "
+
+#: templates/Admin/display_page_edit.tpl:7
+#: templates/Admin/display_page_refuse.tpl:8
+msgid "The Editor wrote about his changes:"
+msgstr "Der Verfasser schreibt follgendes über seine Änderungen:"
+
+#: templates/Admin/display_page_edit.tpl:13
+#: templates/Admin/display_page_refuse.tpl:14
+msgid "The changes couldn't published because of this:"
+msgstr "Die Änderungen können aus follgenden Gründen nicht übernommen werden."
+
+#: templates/Admin/display_page_edit.tpl:18
+#: templates/Admin/Main.tpl:23
+#: templates/User/display_page.tpl:11
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: templates/Admin/display_page_edit.tpl:21
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#: templates/Admin/display_page_edit.tpl:22
+msgid "Refuse"
+msgstr "Abweisen"
+
+#: templates/Admin/html_school.tpl:3
+msgid "Little HTML- School"
+msgstr "Kleine HTML- Schule"
+
+#: templates/Admin/html_school.tpl:5
+msgid "This modul work with HTML- Tags. To write a text in a right format, you have to use HTML. Here is a schor overview of the general HTML-Tags."
+msgstr "Dieses Modul arbeitet mit HTML- Tags. Um den Text richtig zu formatieren, müssen Sie HTML nutzen. Hier ist ein kleiner Überblick über die einfachen HTML- Tags. "
+
+#: templates/Admin/html_school.tpl:8
+msgid "Title:"
+msgstr "Titel:"
+
+#: templates/Admin/html_school.tpl:8
+msgid "There is a hierarchy of titles. You can use highest title by writing '&lt;h1>'Here is my text'&lt;/h1>'. Lower title are created with &lt;h2> and so on."
+msgstr "Es gibt eine Hirarchie der Titel. Um ein Haupttitel zu ersetllen nutzen Sie follgenden Tag:  '&lt;h1>'Mein Titel'&lt;/h1>'. Unwichtigere Titel werden mit &lt;h2> und so weiter erstellt."
+
+#: templates/Admin/html_school.tpl:9
+msgid "Text:"
+msgstr "Text:"
+
+#: templates/Admin/html_school.tpl:9
+msgid "To write your text HTML- comformely you have to use a &lt;p> Tag. You use it like this:'&lt;p>My Text&lt;/p>'"
+msgstr "Um den Text HTML- konform zu schreiben benutzen Sie den  &lt;p>  Tag. Dies sieht dann so aus: '&lt;p>Mein Text&lt;/p>'"
+
+#: templates/Admin/html_school.tpl:10
+msgid "Wordwrap"
+msgstr "Zeilenumbruch"
+
+#: templates/Admin/html_school.tpl:10
+msgid "To get an new Line you have to use this tag: '&lt;br/>'."
+msgstr "Um einen Zeilenumbruch zu erhalten nutzen Sie diesen Tag:  '&lt;br/>'."
+
+#: templates/Admin/html_school.tpl:11
+msgid "Design a text"
+msgstr "Textgestaltung"
+
+#: templates/Admin/html_school.tpl:11
+msgid "To design the text, you can use following Tags:"
+msgstr "Um eine Text zu gestalten nutzen Sie follgenden Tags:"
+
+#: templates/Admin/html_school.tpl:13
+msgid "Bold"
+msgstr "Fett"
+
+#: templates/Admin/html_school.tpl:13
+msgid "To make your text boldly, you use this tag:'&lt;b>Bold Text&lt;/b>'"
+msgstr "Um einen Text fett zu machen nutzten Sie diesen Tag: '&lt;b>Fetter Text&lt;/b>'"
+
+#: templates/Admin/html_school.tpl:14
+msgid "Italic"
+msgstr "Kusiv"
+
+#: templates/Admin/html_school.tpl:14
+msgid "To make your text italicly, you use this tag:'&lt;i>Italic Text&lt;/i>'"
+msgstr "Um einen Text kusiv zu schreiben nutzen Sie diesen Tag:'&lt;i>Kusiver Text&lt;/i>'"
+
+#: templates/Admin/html_school.tpl:15
+msgid "Underline"
+msgstr "Unterstreichen"
+
+#: templates/Admin/html_school.tpl:15
+msgid "To unterline your text, you use this tag:'&lt;u>Underlied Text&lt;/u>'"
+msgstr "Um einen Text zu unterstreichen nutzen Sie follgenden Tag: '&lt;u>Unterstrichender Text&lt;/u>'"
+
+#: templates/Admin/html_school.tpl:17
+msgid "Structure a text"
+msgstr "Textstrukturierung"
+
+#: templates/Admin/html_school.tpl:17
+msgid "To structure the text, you can use following Tags:"
+msgstr "Um den Text zu srtukturieren können Sie diese Tags nutzen: "
+
+#: templates/Admin/html_school.tpl:19
+msgid "List with dots"
+msgstr "Liste mit Punkten"
+
+#: templates/Admin/html_school.tpl:19
+msgid "To create a list with dots you can use this tag:'&lt;ul>&lt;li>Text in list&lt;/li>&lt;/ul>'. To create more then one list entry you use the &lt;li> tags more the one time."
+msgstr "Um eine Liste zu erstellen nutzen Sie diese Tags:  '&lt;ul>&lt;li>Text in der Liste&lt;/li>&lt;/ul>'. Wenn Sie mehr als einen Eintrag benötigen, widerholen Sie die &lt;li> Tags."
+
+#: templates/Admin/html_school.tpl:20
+msgid "List with numbering"
+msgstr "Aufzählungen"
+
+#: templates/Admin/html_school.tpl:20
+msgid "To create a list with numbering you can use this tag:'&lt;ol>&lt;li>Text in list&lt;/li>&lt;/ol>'. To create more then one list entry you use the &lt;li> tags more the one time."
+msgstr "Um eine Aufzählung zu erstellen, können Sie follgenden Tag nutzen: '&lt;ol>&lt;li>Text in der Aufzählung&lt;/li>&lt;/ol>'. Um mehr als nur einen Eintrag zu bekommen, widerholen Sie die &lt;li> Tags."
+
+#: templates/Admin/html_school.tpl:21
+msgid "Table"
+msgstr "Tabelle"
+
+#: templates/Admin/html_school.tpl:21
+msgid "To create a table you can use this tag:'&lt;table>&lt;tr>&lt;th>Title of th column&lt;/th>&lt;td>Text in one cell&lt;/td>&lt;/tr>&lt;/table>'. To create more then one row you use the &lt;tr> tags more the one time. To create more then one column you use the &lt;th> / &lt;td> tags more the one time in each row."
+msgstr "Um eine Tabelle zu erstellen nutzen Sie follgeden Tag- Folge: '&lt;table>&lt;tr>&lt;th>Titel der Zeile&lt;/th>&lt;td>Text in einer Zelle&lt;/td>&lt;/tr>&lt;/table>'.Um mehrere Zeilen zu erzeugen, widerholen Sie die  &lt;tr> Tags. Um mehrere Spalten zu erzeugen, verwenden Sie mehrere &lt;th> / &lt;td> Tags in einer Zeile. "
+
+#: templates/Admin/html_school.tpl:22
+msgid "Deviding line"
+msgstr "Trennlinie"
+
+#: templates/Admin/html_school.tpl:22
+msgid "To create a deviding line you use this tag: '&lt;hr/>'."
+msgstr "Mit  '&lt;hr/>' erstellen Sie eine Trennlinie."
+
+#: templates/Admin/html_school.tpl:24
+msgid "Hyperlink"
+msgstr "Link"
+
+#: templates/Admin/html_school.tpl:24
+msgid "To create a hyperlink you use this tag: &lt;a href=\"path to the site\">the title, you show the sites visitor&lt;/a>"
+msgstr "Um einen Hyperlink zu erstellen nutzen Sie follgenden Tag: &lt;a href=\"URL der Seite\">Anzeigetext&lt;/a>"
+
+#: templates/Admin/html_school.tpl:25
+msgid "Picture"
+msgstr "Bilder"
+
+#: templates/Admin/html_school.tpl:25
+msgid "To include an picturein your site, you do it like this: &lt;p>&lt;img src=\"path to the picture on the server\" alt=\"The text is shown, if the picture couldn't display\"/>&lt;/p> To use a picture contact the administrantor, please. Only he can upload the picture to the server and input the right path."
+msgstr "Wenn Sie Bilder in Ihre Seite einbinden möchten, machen Sie das so: &lt;p>&lt;img src=\"Pfad zum Bild\" alt=\"Text, wenn das Bild nicht angezeigt werden kann\"/>&lt;/p>. Um ein Bild auf der Seite anzuzeigen, benachrichtigen Sie bitten den Administrator. Dieser wird das Bild dann hochladen und den Pfad einfügen."
+
+#: templates/Admin/html_school.tpl:26
+msgid "Style/ Layout:"
+msgstr "Design/ Layout:"
+
+#: templates/Admin/html_school.tpl:26
+msgid "To make a better layout, you can use css tags. To include css- tags you use the style- argument: style=\"css-tag\" in a HTLM- tag. It is only recommended for user knowing what they do."
+msgstr "Um ein besseres Layout zu erhalten können Sie css Tags benutzen.  Diese betten Sie mit dem Argument  style=\"css-tag\" in einen HTML- Tag ein. Bitte nutzen Sie dies nur, wenn Sie wissen was Sie tun."
+
+#: templates/Admin/html_school.tpl:27
+msgid "More Informations"
+msgstr "Mehr Informationen"
+
+#: templates/Admin/html_school.tpl:27
+msgid "SelfHTML is a good HTML-school for more informations"
+msgstr "SelfHTML ist eine gute HTML- Schule um mehr Informationen zu erhalten."
+
+#: templates/Admin/display_page_refuse.tpl:1
+msgid "Refuse Manager"
+msgstr "Abweisen"
+
+#: templates/Admin/display_page_refuse.tpl:2
+msgid "You want to refuse this changes of the page"
+msgstr "Sie möchten diese Seite abweisen."
+
+#: templates/Admin/display_page_refuse.tpl:23
+msgid "Send refuse"
+msgstr "Abweisen bestätigen"
+
+#: templates/Admin/display_page_refuse.tpl:24
+msgid "Cancel refuse"
+msgstr "Abweisen abbrechen"
+
+#: templates/Admin/Main.tpl:8
+msgid "My pages"
+msgstr "Meine Seiten"
+
+#: templates/Admin/Main.tpl:12
+#: templates/Admin/edit.tpl:7
+#: templates/Admin/page_manager.tpl:8
+#: templates/Admin/page_manager.tpl:43
+msgid "Title"
+msgstr "Titel"
+
+#: templates/Admin/Main.tpl:13
+#: templates/Admin/page_manager.tpl:9
+msgid "Date"
+msgstr "Datum"
+
+#: templates/Admin/Main.tpl:22
+msgid "Display View"
+msgstr "zur Seite"
+
+#: templates/Admin/Main.tpl:24
+msgid "Key"
+msgstr "Passwort"
+
+#: templates/Admin/edit.tpl:1
+msgid "Editor"
+msgstr "Editor"
+
+#: templates/Admin/edit.tpl:4
+msgid "Page information"
+msgstr "Seite"
+
+#: templates/Admin/edit.tpl:12
+msgid "Content"
+msgstr "Inhalt"
+
+#: templates/Admin/edit.tpl:19
+msgid "little html - school"
+msgstr "Kleine HTML- Schule"
+
+#: templates/Admin/edit.tpl:22
+msgid "Save"
+msgstr "Speichern"
+
+#: templates/Admin/edit.tpl:23
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: templates/Admin/key_change.tpl:1
+msgid "Key Changer"
+msgstr "Passwort setzen"
+
+#: templates/Admin/key_change.tpl:3
+msgid "Change Key for"
+msgstr "Ändern des Passworts für"
+
+#: templates/Admin/key_change.tpl:9
+#: templates/Admin/page_manager.tpl:47
+msgid "Keyword"
+msgstr "Passwort"
+
+#: templates/Admin/key_change.tpl:13
+#: templates/Admin/page_manager.tpl:51
+msgid "Keyreminder"
+msgstr "Passworterinnerung"
+
+#: templates/Admin/page_manager.tpl:7
+msgid "ID"
+msgstr "ID"
+
+#: templates/Admin/page_manager.tpl:22
+#: templates/Admin/page_manager.tpl:25
+msgid "Mainpage"
+msgstr "Hauptseite"
+
+#: templates/Admin/help.tpl:12
+msgid "Here you can find help about this zikula module. The main idea of this modul is to make a manager of many sites with an admin adding sites, many editors, writing things on the sites and few confirmator, watching if the changes are okay."
+msgstr "Hier finden Sie Hilfe zu diesem Zikulamodul. Der Grundgedanke dieses Moduls ist es, einen Manager anzubieten, bei dem Seiten von Administrantoren hinzugefügt, von einigen Verfassern bearbeitet und einigen Zensoren überprüft werden."
+
+#: templates/Admin/help.tpl:14
+msgid "Permissions"
+msgstr "Zugangsberechtigungen"
+
+#: templates/Admin/help.tpl:15
+msgid "The administrator, adding and deleating sites has to get the Admin- Access for the Page- Zensor module. The Permissionrule shows like this: Group: The Group of Administrators, Component:\"PageZensor::\", Instance:\"::\", Permission level: \"Admin access\""
+msgstr "Die Administratoren, die die Seiten erstellen und auch wieder löschen müssen den Admin- Access für das PageZensor Modul bekommen. Die Zugangsroutine sieht so aus: Gruppe: Die Gruppe der Administratoren, Komponente:\"PageZensus::\", Instanz:\"::\", Zugangslevel \"Admin access\""
+
+#: templates/Admin/help.tpl:17
+msgid "The editor, eding sites has to get the Moderate- Access for the Page- Zensor module. The Permissionrule shows like this: Group: The Group of Editors for one or a group of sites, Component:\"PageZensor::(1|2)\", Instance:\"::\", Permission level: \"Moderate access\" (In this case the group can edit page 1 and page 2.). To set the edit-access for the pages, you have to put in the clip the page-id, finding in the pagemanager"
+msgstr "Die Verfasser, die die Seiten bearbeiten müssen den Moderator- Zugang bekommen. Die Zugangsroutine sieht so aus: Gruppe: Die Gruppe der Verfasser für eine oder mehrere Seiten,  Komponente:\"PageZensor::(1|2)\", Instanze:\"::\", Zugangslevel: \"Moderator Zugang\" (In diesem Fall hat die Gruppe den Zugang für Seite 1 und 2.). Um den Verfasserzugang zu erstellen, müssen Sie die SeitenID aus der Seitenverwaltung benutzen."
+
+#: templates/Admin/help.tpl:19
+msgid "The confirmator, confirming changes has to get the Edit- Access for the Page- Zensor module. The Permissionrule shows like this: Group: The Group of confirmators, Component:\"PageZensor::\", Instance:\"::\", Permission level: \"Edit access\""
+msgstr "Die Zensoren, die die Seiten bestätigen, müssen den Edit-Access erhalten. Die Zugangsroutine sieht so aus: Gruppe: Die Zensorengruppe, Komponente:\"PageZensor::\", Instanz:\"::\", Zugangslevel: \"Edit access\""
+
+#: templates/Admin/help.tpl:21
+msgid "Operation"
+msgstr "Funktionsweise"
+
+#: templates/Admin/help.tpl:22
+msgid "The Administrator can use the pagemanger zu create new pages by putting in a title and klicking on the green tik or to delete pages by using the rubbish."
+msgstr "Der Adminstrator kann Seiten mit der Seitenverwaltung erstellen, in dem er einen Titel eingibt und mit dem grünen Harken bestätigt. Mit dem Mülleimer löscht er die Seite."
+
+#: templates/Admin/help.tpl:24
+msgid "The Editor can edit his pages by using the edit button on the main site in the category \"my pages\". To explain, what has been changed, there is the field with the title \"What has changed?\". Display edit shows the new site, even if it isn't confirmed. The Display shows the last confirmed site. The Mainpage show, which changes are pending, and whitch changes are remarked. "
+msgstr "Der Verfasser kann die Seiten bearbeiten, in dem er auf  \"Bearbeiten\" im der Kategory \"Meine Seiten\" klickt. Um zu sagen, was er geändert hat, gibt es das Feld \"Was wurde geändert?\". Die Ansicht der geänderten Seite zeigt die neue Seite an, auch wenn diese noch nicht bestätigt wurde. Die Ansicht zeigt die aktuelle Seite an. Die Hauptseite zeigt, welche Seite noch nicht bestätigt, oder aber abgewisen wurde. "
+
+#: templates/Admin/help.tpl:26
+msgid "The Confirmator use the edit view on the category \"changes\". In the opening view he can decide, if the changes, are ok, or not. If they aren't, he writes down, what isn't ok, to send the editor his remarks."
+msgstr "Die Zensoren benutzen die Ansicht \"Änderungen\". In der sich öffnenden Ansicht können Sie entscheiden, ob die Änderungen erlaubt werden können, oder nicht. Wenn es nicht geht, muss der Grund für die Verfasser aufgeschrieben werden."
+
+#: templates/Admin/help.tpl:28
+msgid "Startmodule"
+msgstr "Startmodul"
+
+#: templates/Admin/help.tpl:29
+msgid "To get this module as startmodule, you have to set \"PageZensor\" as startmodule. The type is \"user\" and the func is \"main\". You choose the page by choosing this page as \"Mainpage\" in the \"Page Manager\""
+msgstr "Um dieses Modul als Startmodul für Zikula zu verwenden, muss \"PageZensor\" als Startmodul gesetzt werden. Der Typ ist dann \"User\" und die Funktion ist \"main\". Die Seite wird dann in der Seitenverwaltung mit \"Hauptseite\" ausgewählt."
+
+#: templates/User/display_all.tpl:1
+msgid "All pages"
+msgstr "Alle Seiten"
+
+#: templates/User/login_page.tpl:3
+msgid "login"
+msgstr "Login"
+
+#: templates/User/login_page.tpl:5
+msgid "Please enter the keyword for the side:"
+msgstr "Bitte geben Sie das Passwort für die Seite ein:"
+
+#: templates/User/login_page.tpl:9
+msgid "Forgot the key?"
+msgstr "Passwort vergessen?"
+
+#: templates/User/display_page.tpl:5
+msgid "Admin page"
+msgstr "Administrationsseite"
+
+#: templates/User/display_page.tpl:8
+msgid "Last update:"
+msgstr "Stand: "
+
+#: templates/User/display_page.tpl:14
+msgid "Could not find a site with this id!"
+msgstr "Die Seite mit dieser ID konnte nicht gefunden werden!"
+
+#~ msgid "Page Zensor"
+#~ msgstr "Page Zensor"
+
+#~ msgid ""
+#~ "Page module with confirmation of every site by an administrator of the "
+#~ "pages"
+#~ msgstr ""
+#~ "Seitenmodul mit Freigabe jeder Seitenänderung von den Adminstratoren "
+#~ "dieser Seite."
+
+#~ msgid "PageZensor"
+#~ msgstr "PageZensor"
+
+#~ msgid "Please write the editor something about his problems."
+#~ msgstr ""
+#~ "Bitte schreiben Sie dem Verfasser, warum diese Änderungen nicht "
+#~ "veröffentlicht werden können."
+
+#~ msgid "Display Edit"
+#~ msgstr "Vorschau"
+
+#~ msgid "No changes to confirm"
+#~ msgstr "Keine Änderungen, die bestätigt werden müssen."
+
+#~ msgid "Refused pages"
+#~ msgstr "Abgelehnte Änderungen"
+
+#~ msgid "No refused page"
+#~ msgstr "Keine abgelehnten Seite"
+
+#~ msgid "pending changes"
+#~ msgstr "Unbestätigte Änderungen"
+
+#~ msgid "No pending changes"
+#~ msgstr "Keine unbestätigten Änderungen"
+
+#~ msgid "Other pages"
+#~ msgstr "Andere Seiten"
+
+#~ msgid "What has changed?"
+#~ msgstr "Was hat sich geändert?"
+
+#~ msgid "criticism"
+#~ msgstr "Kritik"
+
+#~ msgid "page_zensor"
+#~ msgstr "page_zensor"
+
+#~ msgid "Page zensus"
+#~ msgstr "Page zensus"
